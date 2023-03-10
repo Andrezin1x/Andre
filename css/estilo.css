@@ -1,22 +1,50 @@
 h1 {
-    color:rgb(0, 0, 0); font-size: 44px
-}
-h2{
-    color:rgb(0, 0, 0); font-size: 44px;
-}
-h3 {
-    color:rgb(0, 0, 0); font-size: 44px
-}
-h4{
-    color:rgb(0, 0, 0); font-size: 44px
-}
-h5 {
-    color:rgb(0, 0, 0); font-size: 44px
-}
-h6 {
-    color:rgb(0, 0, 0);font-size: 44px
+    color:rgb(0, 195, 255); 
+    font-size: 64px;
+    border:0.3rem solid rgb(166, 18, 196);
+    border-radius: 0.7rem;  
+    display: inline;  
 }
 
-h1#pagina1{
-    color:rgb(0, 0, 0);
+h2{
+    color:rgb(179, 50, 50); font-size: 34px;
 }
+h3 {
+    color:rgb(179, 50, 50); font-size: 34px
+}
+h4{
+    color:rgb(179, 50, 50); font-size: 34px
+}
+h5 {
+    color:rgb(179, 50, 50); font-size: 34px
+}
+h6 {
+    color:rgb(179, 50, 50);font-size: 34px
+}
+h7{
+    color:rgb(179, 50, 50);font-size: 34px
+}
+
+
+h1#pagina1{
+    color:rgb(179, 50, 50);
+}
+body ul li{
+    color:aquamarine;
+}
+p{
+    text-decoration: underline rgb(170, 70, 31) double 0.1rem;
+    text-indent: 1rem;
+}
+p.maiusculo{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1rem;
+    line-height: 2rem;
+    word-spacing: 2rem;
+    color:azure;
+    font: italic small-caps bold 2rem monospace;
+    text-shadow: 0.2rem 0.2rem 0.3rem black, 0 0 1rem blue, 0 0 2rem darkblue;
+    }
+
+
