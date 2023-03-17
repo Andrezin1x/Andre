@@ -1,8 +1,9 @@
 h1 {
     color:rgb(0, 195, 255); 
     font-size: 64px;
-    border:0.3rem solid rgb(166, 18, 196);
-    border-radius: 0.7rem;  
+    border:0.3rem groove rgb(0, 0, 0);
+    border-radius: 0.7rem groove rgb(255, 255, 255);
+    border-style: outset;
     display: inline;  
 }
 
@@ -47,4 +48,52 @@ p.maiusculo{
     text-shadow: 0.2rem 0.2rem 0.3rem black, 0 0 1rem blue, 0 0 2rem darkblue;
     }
 
+    footer {
+        clear: both;
+        background: #cea0f8 url("../img/kayig.jpeg") no-repeat 0.5rem bottom;
+        background-size: 5rem;
+        height: 3rem;
+    }
 
+    a:visited, a:active{
+        text-decoration: underline;
+        color: brown;
+    }
+
+    a:hover {
+    text-decoration: underline;
+    color: rgb(42, 165, 97);
+}
+
+    
+
+main.grid {
+ display: grid;
+ grid-template-columns:auto auto auto;
+ gap: 0.1rem  
+}
+
+main.flexbox {
+display: flex; 
+height: 100vh; 
+justify-content: center; 
+align-items: center;
+}
+main.flexbox article {
+background-color: lightcoral;
+margin: 1rem; 
+padding: 2rem;
+}
+
+div#whats {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: inline;
+    z-index: 2rem;
+    background-color:aquamarine;
+    color: rgb(255, 255, 255);
+    border: 0.2rem solid darkgreen;
+    padding: 0.2rem;
+    font-size: 2rem;
+}
